@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#file-input::file-selector-button {
+  color: #f1f5f9;
+  background-color: #171717;
+  padding-block: 0.375rem;
+  border: thin solid #171717;
+  border-radius: 3px;
+}
+
+#file-input::file-selector-button:hover {
+  background-color: #737373;
+  border: thin solid #737373;
+}
